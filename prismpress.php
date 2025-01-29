@@ -4,8 +4,8 @@
  * Description:       A Gutenberg code block utilising Prism.js
  * Requires at least: 6.0
  * Requires PHP:      8.0
- * Version:           0.1.0
- * Author:            Jon  B
+ * Version:           0.1.1
+ * Author:            Jon  Ba
  * License:           GPL-3.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       prismpress
