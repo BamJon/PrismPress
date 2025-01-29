@@ -4,7 +4,7 @@
  * Description:       A Gutenberg code block utilising Prism.js
  * Requires at least: 6.0
  * Requires PHP:      8.0
- * Version:           0.0.7
+ * Version:           0.0.8
  * Author:            Jon  
  * License:           GPL-3.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,3 +67,5 @@ function prismpress_check_for_plugin_update( $transient ) {
     return $transient;
 }
 add_filter( 'pre_set_site_transient_update_plugins', 'prismpress_check_for_plugin_update' );
+error_log('Current Version: ' . $transient->checked[$plugin_slug]);
+error_log('New Version: ' . $update_info->new_version);
