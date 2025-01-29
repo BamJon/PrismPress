@@ -41,7 +41,7 @@ function prismpress_check_for_plugin_update( $transient ) {
 
     // Plugin slug, path to the main plugin file, and the URL of the update server
     $plugin_slug = 'prismpress/prismpress.php';
-    $update_url = 'https://raw.githubusercontent.com/jmwhitworth/PrismPress/refs/heads/main/update-info.json';
+    $update_url = 'https://raw.githubusercontent.com/BamJon/PrismPress/refs/heads/main/update-info.json';
 
     // Fetch update information from your server
     $response = wp_remote_get( $update_url );
